@@ -1,0 +1,3 @@
+<view class='container'>
+  <text>{{name}}用了{{days}}天来完成小目标{{aiminfo}}(点击右上角可以分享哦)</text>
+</view>

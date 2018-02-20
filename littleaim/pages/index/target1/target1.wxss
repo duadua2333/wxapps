@@ -1,0 +1,24 @@
+.info{
+  display: none;
+}
+.show{
+  display: block;
+}
+.deadline{
+  margin-top: 8%;
+}
+.endtime{
+  margin-top: 8%;
+}
+.remind{
+  margin-top: 3%
+}
+.radiobox{
+  margin-top: 3%;
+}
+.submit{
+  margin-top: 10%;
+}
+.finished{
+  margin-top: 10%;
+}
