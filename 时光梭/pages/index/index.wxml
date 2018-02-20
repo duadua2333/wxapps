@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='header'>
+    <canvas canvas-id="myCanvas" class="canvas"></canvas>
+    <view class='message'></view>
+  </view>
+  <view class='body'>
+    <view class='aim1' bindtap='target1'>
+      <text>小目标A </text>
+      <!--<text class='text1' value="{{aimdate1}}, {{aiminfo1}}">截止日期：{{aimdate1}}\n目标详情：{{aiminfo1}}</text>-->
+    </view>
+    <view class='aim2' bindtap='target2'>
+      <text>小目标B </text>
+      <!--<text class='text2'>截止日期：{{aimdate2}}\n目标详情：{{aiminfo2}}</text>-->
+    </view>
+    <view class='aim3' bindtap='target3'>
+      <text>小目标C </text>
+      <!--<text class='text3'>截止日期：{{aimdate3}}\n目标详情：{{aiminfo3}}</text>-->
+    </view>
+  </view>
+</view>

@@ -1,0 +1,24 @@
+/**profile.wxss**/
+.container{
+  margin-top: -20%;
+  display: flex;
+}
+.birthday{
+  margin-top: 5%;
+}
+.aim{
+  margin-top: 5%;
+}
+.footer{
+  margin-top: 10%;
+}
+.button{
+  margin-top: 5%;
+}
+.gui{
+  margin-top: 25%;
+}
+.pg{
+  width: 200%;
+  margin-left: -50%;
+}

@@ -1,0 +1,26 @@
+<view class="container">
+  <view class="body">
+    <form class='profile'>
+      <view class='name'>您的称呼：</view>
+      <input value='{{name}}'>{{name}}</input>
+      <view class='birthday'>你的生日：</view>
+      <view class='birthday-info'>
+        <picker mode="date" value="{{birth}}" start="1970-01-01" end="2018-12-31" bindchange="datePickerBindchange">
+          {{birth}}
+        </picker>
+      </view>
+      <view class='aim'>你的人生目标：
+      <input class='target' value='最贴近同学生活的媒体人'></input>
+      <button class='button' bindtap='adjustDays' >确定
+      </button>
+      </view>
+    </form>
+  </view>
+  <view class="footer">
+    <view class='leftdays' value="{{day}}">离80岁还有{{day}}天
+    </view>
+    <view class='gui'>
+    <progress class='pg' percent="{{leftp}}" active='True' stroke-width='60' activeColor='green'></progress>
+    </view>
+  </view>
+</view>

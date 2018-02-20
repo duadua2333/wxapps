@@ -1,0 +1,23 @@
+/**index.wxss**/
+.canvas{
+  margin-top: -55%;
+  margin-left: -50%;
+	width: 100%;
+	height: 80%;
+	position: fixed;
+}
+.body{
+  margin-top: 65%;
+}
+
+.aim1{
+  margin-top: 8%;
+}
+
+.aim2{
+  margin-top: 8%;
+}
+
+.aim3{
+  margin-top: 8%;
+}

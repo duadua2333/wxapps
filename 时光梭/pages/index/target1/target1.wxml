@@ -1,0 +1,30 @@
+<view class='container'>
+  <view class='body'>
+    <image style='center' src='../../../img/flag.png' class="info{{showView?'':'show'}}"></image>
+    <button class="info{{showView?'':'show'}}" bindtap='he'>我不服</button>
+    <form class="info{{showView?'show':''}}" bindsubmit='aim'>
+      你的小目标:
+      <input name='saim' bindtap='aiminfoBindchange' value="{{aiminfo1}}" class='aiminfo'>{{aiminfo1}}</input>
+      <view class='deadline'>截止日期:
+        <picker mode="date" value="{{aimdate1}}" start="2018-01-01" end="2999-12-12" bindchange="datePickerBindchange">
+          {{aimdate1}}
+        </picker>
+      </view>
+      <view class='endtime'>截止时间:
+        <picker mode="time" value="{{endtime1}}" start="00:00" end="23:59" bindchange="timePickerBindchange">{{endtime1}}</picker>
+      </view>
+      <!--<view class='remind'>提醒周期:
+      <radio-group name='rb' bindchange="radioboxChange">
+        <label class="radiobox" wx:for="{{items}}">
+        <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+        </label>
+      </radio-group>
+      <view class='remindtime'>提醒时间:
+        <picker mode="time" value="{{remindtime1}}" start="00:00" end="23:59" bindchange="rtimePickerBindchange">{{remindtime1}}</picker>
+      </view>
+      </view>-->
+      <button class='submit' form-type='submit'>确定</button>
+      <button bindtap='finish' form-type='reset' class='finished'>我完成啦</button>
+    </form>
+  </view> 
+</view>
